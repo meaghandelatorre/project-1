@@ -4,3 +4,4 @@
 
 - Basic Unix Shell commands
 - Install and Configure Git using the Unix Shell
+- While doing this project I have learned multiple git commands like git status, add ., and commit -m "..."
