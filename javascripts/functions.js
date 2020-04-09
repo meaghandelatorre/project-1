@@ -10,23 +10,12 @@ let arrAvg = (arr) => {
 };
 
 //REQ 3c
-let arrMax = (arr) { (like a for loop)
-  //
-};
-
-ex:
-let fruits = ["Apple", "Orange", "Plum"];
-// let result = "";
-let maxSoFar = fruits[0].length;
-
-//iterate over array ay
-fruits.forEach((elem) => {
-  if(elem.length > maxSoFar) {
-    maxSoFar = elem.length;
-  }
-//  result = `${result} ${elem}`; //if we wanted length,
-  //we would put elem.length so youd see 5 6 4
-  //if we wanted longest word we declare variable
-  // called "maxSoFar"
-});
-console.log(result);
+function arrMax(arr) {
+  let maxSoFar = arr[0];
+  arr.forEach(elem => {
+    if(elem > maxSoFar) {
+      maxSoFar = elem;
+    }
+  });
+  return maxSoFar;
+}
