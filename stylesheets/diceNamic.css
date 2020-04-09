@@ -3,14 +3,14 @@ input[type=text] {
 }
 
 button {
-  background-color: black;
-  color: lime;
+  background-color: orange;
+  color: white;
   font-size: 24px;
   border-radius: 7px;
 
 }
 
 hr {
-  height: 3px;
+  height: 8px;
   background-color: pink;
 }

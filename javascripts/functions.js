@@ -30,3 +30,8 @@ function sumEvens(arr) {
   }
   return sum;
 }
+
+//XC 3e
+function alphaPosition(ch) {
+
+}
